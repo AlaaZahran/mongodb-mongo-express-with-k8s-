@@ -25,6 +25,7 @@ kubectl apply -f mongo-secret.yml
 
      * MONGO_INITDB_ROOT_USERNAME
      * MONGO_INITDB_ROOT_PASSWORD
+     
 then apply file by:
 ```
 kubectl apply -f mongodb-deployment.yml 
@@ -62,6 +63,7 @@ kubectl apply -f mongo-secret.yml
 
      * MONGO_INITDB_ROOT_USERNAME
      * MONGO_INITDB_ROOT_PASSWORD
+     
 then apply file by:
 ```
 kubectl apply -f mongodb-deployment.yml 
